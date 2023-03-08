@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    display: inline;
+    display: inline-block;
     flex-direction: row;
     width: 100%;
     top: 0;
@@ -30,6 +30,7 @@ nav {
 
 .nav-item {
     display: inline;
+    flex-direction: row;
     text-decoration: none;
     color: lightgray;
     margin-right: 100px;
